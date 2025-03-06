@@ -92,8 +92,6 @@ This command will start both the React development server and the Express server
 │ │ ├── genriccomponents/
 │ │ ├── helper/
 │ │ ├── hooks/
-│ │ ├── layout/
-│ │ ├── reduxtoolbox/
 │ │ ├── routes/
 │ │ ├── servises/
 │ │ ├── utils/
@@ -113,8 +111,7 @@ This command will start both the React development server and the Express server
 │ ├── package.json
 │ ├── package-lock.json
 │ └── README.md
-├── dataPusher.db
-└── README.md
+
 ```
 
 ### Server
@@ -168,8 +165,7 @@ Ensure you have the following installed:
 ### Steps to Set Up
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/user-auth-service.git
-   cd user-auth-service
+   git clone https://github.com/your-username/user-auth-service.git](https://github.com/Vetrivelan424/user_management.git
    ```
 
 2. Install dependencies:
