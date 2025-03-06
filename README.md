@@ -214,7 +214,7 @@ This project is licensed under the **MIT License**.
 Pull requests are welcome. Open an issue for feature requests or bug reports.
 
 ## Contact
-For queries, reach out to **your-email@example.com**.
+For queries, reach out to **vetrivelan424@gmail.com**.
 
 #### Contributors
 Vetrivelan
