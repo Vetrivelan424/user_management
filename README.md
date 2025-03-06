@@ -183,11 +183,8 @@ Ensure you have the following installed:
      DB_NAME=user_db
      ```
 
-4. Run database migrations:
-   ```bash
-   npx knex migrate:latest
-   ```
-
+4. Update database Sql file:
+ 
 5. Start the server:
    ```bash
    npm start
