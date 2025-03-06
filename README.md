@@ -15,28 +15,69 @@ This project is a full-stack web application that allows users to manage users d
 - [Demo Video](#Demo-Video)
 
 
-## Features
-
 ### Frontend
 
-- [Home Page](): Displays a list of employees with their name, position, department, and options to edit or delete records.
+## Features
 
-- [Add Users Page](): A form to add new employees with fields for name, age, position, and department.
+### Home Page
+- Displays a list of employees with the following details:
+  - Name
+  - Company Name
+  - Role
+  - Country
+- Provides options to **edit** or **delete** records.
+- Includes a **refresh button** to fetch the updated user list from the API.
+- Implements a **search box** to filter users by name, company name, role, or country.
 
-- [Form Validation](): Ensures no empty fields and validates age as a number.
+### Add Users Page
+- Contains a form to add new employees with the following fields:
+  - Name
+  - Age
+  - Position
+  - Department
+- Includes an option to add a static user record to the local state (does not interact with the API).
 
-- [Navigation](): Uses React Router for seamless page transitions.
+### Form Validation
+- Ensures that no fields are left empty.
+- Validates the **age field** to ensure it is a numeric value.
 
-- [API Integration](): Uses Axios or Fetch API for communication with the backend.
+### Navigation
+- Uses **React Router** to enable seamless page transitions.
 
-- [Styling](): Designed for an intuitive and visually appealing user experience.
+### API Integration
+- Uses **Axios** or **Fetch API** to communicate with the backend.
+- Fetches employee records from an API.
 
+### Styling
+- Designed for an **intuitive** and **visually appealing** user experience.
 
 ## Technologies Used
 
 - Frontend: React, Axios,Bootsrab
-- Backend: Node.js, Express, MYSQL
-- Error Management: Winston
+
+## Installation
+
+
+###Install client dependencies:
+
+```bash
+npm install --f
+```
+###Running the Application
+To run both the client and backend servers concurrently:
+
+1. Navigate to the client directory (if not already there):
+
+```bash
+cd client
+```
+
+2. Start the application:
+```bash
+npm run start:local
+```
+This command will start both the React development server and the Express server server concurrently. The React app will be available at http://localhost:8080.
+
 
 ## Project Structure
 ```bash
